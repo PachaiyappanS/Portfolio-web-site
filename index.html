@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio Website</title>
+        <link rel="icon" href="img/cv.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1fd07feb3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Ps-modified.png" class = "icon">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick= "closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick= "openmenu()" ></i>                
+            </nav>
+            <div class = "header">
+               <div class="header-text">
+                 <p>WEB DEVELOPER</p>
+                 <h1>Hi I'm <span>Pachaiyappan S</span><br> From India</h1>
+               </div>
+               <div class = "header-img">
+                
+               </div>  
+            </div>
+        </div>
+    </div>
+<!------about--------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/pachai-1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "Sub-title">ABOUT ME</h1>
+                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;I am a positive,enthusiaastic and competent Web Developer.I take my work as a Web Developer seriously and I always ensure my skills are kept up to date. I commit 100% effort to my work, particularly focusing on front-end development. Additionally, I've successfully completed various projects in this domain.
+                    Passionate Web Developer | Python Enthusiast | E-commerce Project Expert
+- Recently graduated from a comprehensive Udemy Web Development course, specializing in 
+ cutting-edge technologies and frameworks.
+- Successfully executed a dynamic e-commerce project within a tight 6-month timeframe, 
+ demonstrating proficiency in full-stack development and project management.
+- Self-taught Python aficionado, honing skills through dedicated study on YouTube and applying 
+ knowledge to real-world projects.
+- Experienced in React.js through a hands-on mini-project, showcasing the ability to create 
+ interactive and responsive web applications.
+- Proficient in Laravel 10 framework, adeptly handling CRUD operations using Laravel Breeze, 
+ ensuring efficient and scalable web solutions.
+- Actively seeking opportunities to leverage my diverse skill set and passion for web development to 
+ drive innovation and exceed project expectations.
+                </p>
+
+                <div class="tab-titles">
+                    <p class ="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                    <p class ="tab-links active link" onclick="opentab('education')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>WEB DEVELOPMENT</span><br></li>
+                        <li><span>FRONT-END</span><br>HTML , CSS , JAVASCRIPT.</li>
+                        <li><span>API 'S</span><br>JSON , REST , GOOGLE API. </li>
+                        <li><span>BACK-END</span><br>Node.Js , Express.js , React.Js, MongoDB.</li>
+                        
+                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>HSC  - Railway Mixed Higher Secondary School Perambur ch-11.</li>
+                        
+                        <li><span>2023</span><br>UG   - B.Sc(Computer Science) at VEL TECH RANGA SANKU ARTS COLLEGE</li>
+                        <li><span>2025</span><br>PG   - MCA  at  S.A.ENGINEERING COLLEGE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!----------services------->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>WEB DEVELOPMENT</h2>
+                <p>The Web Developer course gave a taste of actually developing apps beacause of which i was able to make some projects also polish my resume.My service aim to enhance online experience by combining innovative design elements with seamless functionality.</p>
+                <a href="">Learn More...</a>
+
+            </div>
+            <div>
+            <i class="fa-solid fa-code-branch"></i>
+            <h2>COMPETITIVE PROGRAMMING</h2>
+            <p>Offering competitive programming service I provide solutions that transcend coding challenges. With a strategic and analytical approach, I deliver high-quality code to tackle complex problems efficiently.</p>
+            <a href="">Learn more...</a>
+        </div>           
+            </div>
+        </div>
+    </div>
+</div>
+<!-----PORTFOLIO------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="Sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/webdesign.jpg">
+                <div class="layer">
+                    <h3>FRONT END PROJECTS</h3>
+                    <p>Crafting and implementing an application's user interface.A web designer shapes a website's visual appearance and layouts .</p>
+                    <a href="https://www.linkedin.com/in/pachaiyappans/recent-activity/all/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/cp.jpeg">
+                <div class="layer">
+                    <h3>COMPETITIVE PROGRAMMING</h3>
+                    <p>As a competitive programmer, my approach to solving real-time problems is distinctive, leveraging logic to achieve innovative solutions. </p>
+                    <a href="http://www.skillrack.com/profile/440842/45b1f2efb2871cc351789e9b7b03909b0f3d1982"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>            
+        </div> 
+        <a href="" class="btn">See More</a>       
+    </div>
+</div>
+<!---------CONTACT------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-title">CONTACT ME</h1>
+                <p><i style="font-size:24px" class="fa">&#xf0e0;</i>  pachaiyappans988@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>     9042569941</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/leono_espartan/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61560790491147"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/pachaiyappans/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/pachai2002"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1IB-CZWV73Hi-CGGFswcl9wuOIUESDE4R/view?usp=sharing"  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Pachaiyappan S <br><br> Made with <i class="fa-solid fa-heart"></i> by PACHAIYAPPAN S</p>
+    </div>
+</div>
+<!---------JAVASCRIPT------------------> 
+
+<script> 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "100px";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxv-Yfro9o8bFV_O_APCN2wtAayBr7uDh-IplBM_Neqr0PSQS_ttZX-ispvJInZRz6/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHtml =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>  
+
+
+    
+</body>
+</html>
+
+
+
