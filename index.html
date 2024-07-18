@@ -28,12 +28,14 @@
             </nav>
             <div class = "header">
                <div class="header-text">
-                 <p>WEB DEVELOPER</p>
+                 
                  <h1>Hi I'm <span>Pachaiyappan S</span><br> From India</h1>
+                 <span class="typer"></span>
+
                </div>
                <div class = "header-img">
                 
-               </div>  
+               </div>    
             </div>
         </div>
     </div>
@@ -168,6 +170,19 @@
     </div>
 </div>
 <!---------JAVASCRIPT------------------> 
+<script type="type/javascript" src ="js/script.js"></script>
+<script src="http://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed ('.typer',{
+        strings :["Web Developer","Software Developer","Java Developer","Python Developer"],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop:true
+    });
+</script>
+
+
+
 
 <script> 
     var tablinks = document.getElementsByClassName("tab-links");
@@ -216,6 +231,8 @@
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+
 
 </script>  
 
