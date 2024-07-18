@@ -374,6 +374,13 @@ form.btn2{
 nav .fa-solid{
     display: none;
 }
+.typer{
+    overflow: hidden;
+    color:white;
+    font-size: 2.6rem;
+    text-shadow: 0 0 10px #2ca4bf.0 0 20px #2ca4bf.0 0 30px #2ca4bf;
+
+}
 
 /*-----media queries---*/
 
